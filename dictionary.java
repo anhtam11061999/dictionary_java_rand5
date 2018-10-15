@@ -280,11 +280,13 @@ public class dictionary{
                    td.edit();
                     break;
                 case 5:
+                    td.readfile();
                     td.print();
                     break;
                 case 6:
                     td.delfile();
                     td.file();
+                    System.out.println("da luu vao file");
                     break;
                 case 7:
                     break;

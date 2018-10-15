@@ -14,10 +14,10 @@ public class Main {
 
     public static void main(String[] args) throws FileNotFoundException, IOException, ClassNotFoundException {
         dictionary td = new dictionary();
-        td.readfile();
         td.file();
+        td.readfile();
+        td.delfile();
         td.use_menu();
-
     }
 
 }

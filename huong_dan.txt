@@ -1,0 +1,25 @@
+Chương trình gồm cac class Word, dictionary, Main:
+	- Trong class Word gồm có các thuộc tính như word, mean, type:
+		+ word là từ tiếng anh.
+		+ mean là nghĩa của từ.
+		+ type là loại của từ.
+	- Trong class dictionary có chứa mảng Word, và các phương thức add_word(), search(), delete(), edit(), printf(), Menu(),use_menu, delfile(), file():
+		+ add_word(): thêm từ vào mảng.
+		+ search(): tìm kiếm từ gân đúng với yêu cầu hoặc chính xác với từ cần tìm kiếm.
+		+ delete(): xóa 1 object Word trong mảng.
+		+ edit(): sửa 1 object Word với các chức năng sửa word, mean, type.
+		+ printf(): in ra object word.
+		+ delfile(): xoa file đã tạo.
+		+ file(): tạo file và ghi dữ liệu vào file.
+		+ Menu(): hiển thị danh sách menu.
+		+ use_menu(): gọi những hàm trên.
+	- Trong class Main :
+		+ chứa các hàm main dùng chạy chương trình.
+Chạy class Main:
+	1 = thêm từ.
+	2 = tìm kiếm.
+	3 = xóa từ.
+	4 = sửa từ.
+	5 = In tất cả các từ trong danh sách.
+	6 = lưu những thay đổi vào file.
+	7 = break.
